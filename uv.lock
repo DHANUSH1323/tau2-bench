@@ -2925,6 +2925,7 @@ dependencies = [
     { name = "toml" },
     { name = "typer" },
     { name = "uvicorn" },
+    { name = "websockets" },
 ]
 
 [package.optional-dependencies]
@@ -3072,6 +3073,7 @@ requires-dist = [
     { name = "tqdm", marker = "extra == 'voice'", specifier = ">=4.0" },
     { name = "typer", specifier = ">=0.12.5" },
     { name = "uvicorn", specifier = ">=0.34.0" },
+    { name = "websockets", specifier = ">=15.0.1" },
     { name = "websockets", marker = "extra == 'voice'", specifier = ">=13.0" },
 ]
 provides-extras = ["live", "voice", "knowledge", "gym", "dev", "experiments", "all"]
